@@ -1,0 +1,61 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "account",
+    "collectionId": "49b7ca73-2a6c-4cdc-82f2-a86d28915ced",
+    "dateExported": "2024-08-02T17:27:17.996Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "443f3c12-bd47-40b8-a2bb-4ff0564ad9c4",
+            "colId": "49b7ca73-2a6c-4cdc-82f2-a86d28915ced",
+            "containerId": "",
+            "name": "register",
+            "url": "http://127.0.0.1:8000/api/client/register/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-02T14:08:03.969Z",
+            "modified": "2024-07-02T14:41:11.547Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n  \"first_name\":\"youssef\",\n  \"last_name\":\"abbih\",\n  \"email\":\"abbih.youssef1995@gmail.com\",\n  \"password\":\"19951995@@\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "85d10e70-dfbb-448a-8b0c-f7ff09d01fc0",
+            "colId": "49b7ca73-2a6c-4cdc-82f2-a86d28915ced",
+            "containerId": "",
+            "name": "login",
+            "url": "http://127.0.0.1:8000/api/token/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-02T14:36:36.721Z",
+            "modified": "2024-07-07T17:48:46.937Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n  \"username\":\"abbih\",\n  \"password\":\"19981998@@\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9f453cf1-a538-47df-9ef8-2f2a81d1a8fc",
+            "colId": "49b7ca73-2a6c-4cdc-82f2-a86d28915ced",
+            "containerId": "",
+            "name": "ClientInfo",
+            "url": "http://127.0.0.1:8000/api/client/ClientInfo/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-02T14:58:55.420Z",
+            "modified": "2024-07-05T16:11:29.102Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzIwMTk2MTc4LCJpYXQiOjE3MjAxOTU4NzgsImp0aSI6IjYyM2VkZDVjY2Q2NjRiOWM5ODMzYjE2ZDAxODcyNTVlIiwidXNlcl9pZCI6NX0.ZRDeVEdzjoNxteDLDmtFSoW-qZXB3TU_B5mGD49ZZUo"
+            }
+        }
+    ],
+    "ref": "qQIsza2E7_RCebA4BT4rqkwuOXT5pDofI9xiAeXTyumxgDkgnNjob2x3E3A3OKR4axvi7rthB_lHPNbTKE7m9g"
+}

@@ -1,0 +1,32 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Payment",
+    "collectionId": "54df244d-c654-456f-b8f9-c57b530d5e08",
+    "dateExported": "2024-08-02T17:27:06.129Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d2096c41-9258-4c8a-b593-db2ff24e939a",
+            "colId": "54df244d-c654-456f-b8f9-c57b530d5e08",
+            "containerId": "",
+            "name": "createPayment",
+            "url": "http://127.0.0.1:8000/api/payment/create/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-01T14:54:53.706Z",
+            "modified": "2024-08-01T15:13:23.233Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"cc_number\":\"4444333322221111\",\n  \"cc_expiry\":\"8/24\",\n  \"cc_code\":\"0000000000000000\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzIyNTI1NDkwLCJpYXQiOjE3MjI1MjUxOTAsImp0aSI6IjFmYjZkYWQ4MzUzNzRiZjFiYTEwN2Q1MzY2MGE5YjUwIiwidXNlcl9pZCI6MX0.XkhLy71vOAXjtTMUQj6yaIKmMGhWWngYyGpGBwyP044"
+            }
+        }
+    ],
+    "ref": "ukTHOnkdKHEl2wqHQsgahj-nk7e_SnGKRwc4F0CxkQh-EV2obgc_L3ne16QnAnGk61y5x1oW1vcBf7AeSsScBw"
+}

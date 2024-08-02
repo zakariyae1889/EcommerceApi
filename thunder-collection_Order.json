@@ -1,0 +1,106 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Order",
+    "collectionId": "01ec7dae-825e-477c-9b42-b1f9872bad2c",
+    "dateExported": "2024-08-02T17:26:46.944Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e05e35b2-66d9-4524-b9de-9cbed77e40d6",
+            "colId": "01ec7dae-825e-477c-9b42-b1f9872bad2c",
+            "containerId": "",
+            "name": "createOrder",
+            "url": "http://127.0.0.1:8000/api/order/shirt1/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-06T23:49:12.243Z",
+            "modified": "2024-07-28T20:10:14.383Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"quantity\":4,\n  \"color\":\"Green\",\n  \"size\":\"l\",\n   \"unit_price\":60\n  \n  \n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzIyMTk3NjM3LCJpYXQiOjE3MjIxOTczMzcsImp0aSI6IjQxZjgxYjhlMTU5NzQ2Yzk5ZTAwZWZhODJiYjNhZDBlIiwidXNlcl9pZCI6MX0.pd-Sy_cOXVt92nNK1pk1sF3SaU5cnD_KDmX8dj6QkHw"
+            }
+        },
+        {
+            "_id": "10b27187-eb4e-4ba5-9c5e-f2b8995e1f53",
+            "colId": "01ec7dae-825e-477c-9b42-b1f9872bad2c",
+            "containerId": "",
+            "name": "createNewOrder",
+            "url": "http://127.0.0.1:8000/api/order/dresses1/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-07T11:54:20.857Z",
+            "modified": "2024-07-28T20:10:36.638Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"quantity\":2,\n  \"color\":\"Black\",\n  \"size\":\"xl\",\n  \"unit_price\":420\n  \n  \n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzIyMTk3NjM3LCJpYXQiOjE3MjIxOTczMzcsImp0aSI6IjQxZjgxYjhlMTU5NzQ2Yzk5ZTAwZWZhODJiYjNhZDBlIiwidXNlcl9pZCI6MX0.pd-Sy_cOXVt92nNK1pk1sF3SaU5cnD_KDmX8dj6QkHw"
+            }
+        },
+        {
+            "_id": "c025e84e-3022-4dc9-8963-f36c28fac122",
+            "colId": "01ec7dae-825e-477c-9b42-b1f9872bad2c",
+            "containerId": "",
+            "name": "orderShow",
+            "url": "http://127.0.0.1:8000/api/order/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-07T17:28:14.000Z",
+            "modified": "2024-07-28T20:15:30.021Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzIyMTk4MDEyLCJpYXQiOjE3MjIxOTc3MTIsImp0aSI6IjM0MDM4MzM4OTc4MDRmYzQ5NjBiMWIxMzRhMGU1YzIwIiwidXNlcl9pZCI6MX0.oKOds4dh3mnhkcJr2e9A7HnaYvJuKMr9fqswyBf1pZM"
+            }
+        },
+        {
+            "_id": "a588debc-dc92-435f-bd0b-1c0729d927c1",
+            "colId": "01ec7dae-825e-477c-9b42-b1f9872bad2c",
+            "containerId": "",
+            "name": "deleteorder",
+            "url": "http://127.0.0.1:8000/api/order/16/delete",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-07-27T20:13:47.859Z",
+            "modified": "2024-07-27T20:28:27.264Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzIyMTEyMTE5LCJpYXQiOjE3MjIxMTE4MTksImp0aSI6IjA1Y2IxMDU5ZDEwOTQzYzhiMjYzYzU5MjA0MDg5NDdiIiwidXNlcl9pZCI6MX0.S3HpCqTjCSltiVP73NWBg3vTRvEFAn9AFuHIMMB19NI"
+            }
+        },
+        {
+            "_id": "d3cc3fce-3fd4-4e64-afdd-59dfc0ebf9ff",
+            "colId": "01ec7dae-825e-477c-9b42-b1f9872bad2c",
+            "containerId": "",
+            "name": "UpdateOrder",
+            "url": "http://127.0.0.1:8000/api/order/18/update",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-07-27T20:40:29.315Z",
+            "modified": "2024-07-28T11:00:31.210Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n  \"quantity\":5,\n  \"color\":\"Black\",\n  \"size\":\"xxl\"\n  \n  \n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzIyMTY0Njg1LCJpYXQiOjE3MjIxNjQzODUsImp0aSI6IjEwODU5OWI2N2FkMjQ4OThiZTg5ZmE5MzY2MDQ3ODg1IiwidXNlcl9pZCI6MX0.GdUQnd0jGdQJMILh_kJgVV3Fbqbh5tx4CzYxPW-zl7o"
+            }
+        }
+    ],
+    "ref": "6Msz7P7RHMvJUnNOPXnWxfa8Gq-oJfLOoLbtLB8aK2kvt82dJY-2hSHoN2G9E5jn_Wph2Ia2fFx_cBFuBupjJg"
+}

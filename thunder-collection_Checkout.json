@@ -1,0 +1,32 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Checkout",
+    "collectionId": "2d625d42-f5b9-40c8-81fd-47ff651155f9",
+    "dateExported": "2024-08-02T17:26:21.467Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4012561b-8f55-44ef-b937-8b6613c4ace4",
+            "colId": "2d625d42-f5b9-40c8-81fd-47ff651155f9",
+            "containerId": "",
+            "name": "createAddress",
+            "url": "http://127.0.0.1:8000/api/checkout/create/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-29T17:20:36.007Z",
+            "modified": "2024-08-01T11:42:24.074Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"firstAddress\":\"Address1\",\n    \"secondAddress\":\"Address2\",\n    \"mobilePhone\":\"+212 2223344\",\n    \"Country\":\"morocco\",\n    \"City\":\"Taourirt\",\n    \"State\":\"123 state\",\n    \"zipCode\":5600,\n    \"Payment\":\"BankTransfer\"\n\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzIyNTEyODM0LCJpYXQiOjE3MjI1MTI1MzQsImp0aSI6IjI1M2RjMjQyYzcyZTQ4MDliNzhjOTZkNGExZTVmNTQyIiwidXNlcl9pZCI6MX0.W_nIaDrCD3CQZvTBfgrE8D6gmect75LaEykUStC4SMo"
+            }
+        }
+    ],
+    "ref": "IiaC_T0Iqac_V65WoSDLfJ3q9UXmVuZUPmpt1M84Jo6S06R_F3i1hClJNFntf_nn8iSF9Lq5VSzfs9i34Z6N1g"
+}

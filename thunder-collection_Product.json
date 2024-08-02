@@ -1,0 +1,92 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Product",
+    "collectionId": "7219b606-27eb-4294-9df1-168bb3909ac4",
+    "dateExported": "2024-08-02T17:24:26.368Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3c5830e9-0b82-4830-9484-d0292e4a7da9",
+            "colId": "7219b606-27eb-4294-9df1-168bb3909ac4",
+            "containerId": "",
+            "name": "AllProduct",
+            "url": "http://127.0.0.1:8000/api/products",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-28T00:11:36.019Z",
+            "modified": "2024-08-02T14:04:06.249Z",
+            "headers": []
+        },
+        {
+            "_id": "38bff92a-a34e-4b3f-bab4-4d813da13f7e",
+            "colId": "7219b606-27eb-4294-9df1-168bb3909ac4",
+            "containerId": "",
+            "name": "productDeitals",
+            "url": "http://127.0.0.1:8000/api/products/shirt1/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-06-29T11:10:13.048Z",
+            "modified": "2024-07-28T13:12:04.979Z",
+            "headers": []
+        },
+        {
+            "_id": "b0cbe4f4-7797-4c20-952d-da22ad99d2c6",
+            "colId": "7219b606-27eb-4294-9df1-168bb3909ac4",
+            "containerId": "",
+            "name": "createreview",
+            "url": "http://127.0.0.1:8000/api/products/reviews/dresses1/",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-06-29T20:06:45.087Z",
+            "modified": "2024-08-02T17:23:29.582Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"reting\":3.50,\n    \"comment\":\"not bad\"\n\n}\n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzIwMTExNTg1LCJpYXQiOjE3MjAxMTEyODUsImp0aSI6IjQwMDcwNTI5OTk1MjRhMTI4ODRlY2EwMmI3Nzk3N2M2IiwidXNlcl9pZCI6NX0.zQ4KJsV4BDVJhf7E6U0eYbH9-76oNtHVLgFPCa0EN-I"
+            }
+        },
+        {
+            "_id": "07cf5e7e-ca4f-4523-a8b4-24e972fbe1dd",
+            "colId": "7219b606-27eb-4294-9df1-168bb3909ac4",
+            "containerId": "",
+            "name": "category",
+            "url": "http://127.0.0.1:8000/api/products/category/Shirts",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-07-02T20:53:04.397Z",
+            "modified": "2024-07-04T15:50:42.962Z",
+            "headers": []
+        },
+        {
+            "_id": "005752e3-bf7c-469d-b379-3f8317a21bc2",
+            "colId": "7219b606-27eb-4294-9df1-168bb3909ac4",
+            "containerId": "",
+            "name": "Trand",
+            "url": "http://127.0.0.1:8000/api/products/trandproduct",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-07-04T12:20:41.702Z",
+            "modified": "2024-07-04T16:46:09.774Z",
+            "headers": []
+        },
+        {
+            "_id": "4ec7015f-e416-49ab-aef0-bd7d21b936ea",
+            "colId": "7219b606-27eb-4294-9df1-168bb3909ac4",
+            "containerId": "",
+            "name": "Last",
+            "url": "http://127.0.0.1:8000/api/products/lastproduct",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-07-05T16:09:07.431Z",
+            "modified": "2024-07-05T16:09:51.535Z",
+            "headers": []
+        }
+    ],
+    "ref": "9DImL0uraubjGN9pfbTuUwXILBTnsNrG5HUV-Ez4m1FZGHbh772wa-yDqlvxcct29gmOpLi_LLwjWqAdhiqSKw"
+}
